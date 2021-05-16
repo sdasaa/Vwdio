@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621146905432' stop='1621146914280'>
+    <name>To validate A Million More | Volvo Cars - International page - HomePageValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HomePageValidation</title>
+    <test-cases>
+        <test-case start='1621146905433' status='passed' stop='1621146908317'>
+            <name>Should validate the VideoPanel</name>
+            <title>Should validate the VideoPanel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621146908318' status='passed' stop='1621146908832'>
+            <name>Validate the modelIntro &amp; videoPanel of homePage</name>
+            <title>Validate the modelIntro &amp; videoPanel of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621146908833' status='passed' stop='1621146909242'>
+            <name>Should validate the textStatement &amp; features of homePage</name>
+            <title>Should validate the textStatement &amp; features of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621146909242' status='broken' stop='1621146914280'>
+            <name>Should validate the VideoTestimonials of homePage</name>
+            <title>Should validate the VideoTestimonials of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button type="button" class="a as by bz ca cb cc cd ce cf co dc de os ot ou ov ow x">...&lt;/button> is not clickable at point (690, 25). Other element would receive the click: &lt;div class="_SiteNav-ag _SiteNav-ah _SiteNav-ai _SiteNav-t _SiteNav-w _SiteNav-x _SiteNav-y">...&lt;/div>
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>element click intercepted: Element &lt;button type="button" class="a as by bz ca cb cc cd ce cf co dc de os ot ou ov ow x">...&lt;/button> is not clickable at point (690, 25). Other element would receive the click: &lt;div class="_SiteNav-ag _SiteNav-ah _SiteNav-ai _SiteNav-t _SiteNav-w _SiteNav-x _SiteNav-y">...&lt;/div>
+                  (Session info: chrome=90.0.4430.212)
+                    at Object.getErrorFromResponseBody (F:\Repository\Volvo_wdio\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (F:\Repository\Volvo_wdio\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.elementErrorHandlerCallbackFn (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at F:\Repository\Volvo_wdio\test\pageobjects\home.page.ts:175:31
+                    at Array.forEach (&lt;anonymous>)
+                    at HomePage.validateTestimonials (F:\Repository\Volvo_wdio\test\pageobjects\home.page.ts:173:32)
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:51:25)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

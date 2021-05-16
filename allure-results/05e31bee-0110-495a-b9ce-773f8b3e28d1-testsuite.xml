@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621091713592' stop='1621091724539'>
+    <name>To validate A Million More | Volvo Cars - International page - HeaderValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HeaderValidation</title>
+    <test-cases>
+        <test-case start='1621091713593' status='passed' stop='1621091719817'>
+            <name>Validate the title</name>
+            <title>Validate the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621091719819' status='passed' stop='1621091720560'>
+            <name>Validate the header section of homePage</name>
+            <title>Validate the header section of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621091720560' status='passed' stop='1621091721809'>
+            <name>validate the Cars Menu of homePage</name>
+            <title>validate the Cars Menu of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621091721809' status='passed' stop='1621091722447'>
+            <name>Validate the Cars present in each tabs of CarMenu</name>
+            <title>Validate the Cars present in each tabs of CarMenu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621091722447' status='passed' stop='1621091723729'>
+            <name>Validate the Site Navigation menu</name>
+            <title>Validate the Site Navigation menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621091723729' status='passed' stop='1621091724538'>
+            <name>Should close the popups and Validate that the homepage is displayed</name>
+            <title>Should close the popups and Validate that the homepage is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621166955892' stop='1621167021878'>
+    <name>To validate A Million More | Volvo Cars - International page - FooterValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - FooterValidation</title>
+    <test-cases>
+        <test-case start='1621166955893' status='passed' stop='1621166961012'>
+            <name>Validate the title</name>
+            <title>Validate the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621166961015' status='broken' stop='1621167021050'>
+            <name>Should validate the exploreOurModels section of homePage</name>
+            <title>Should validate the exploreOurModels section of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "To validate A Million More | Volvo Cars - International page - FooterValidation Should validate the exploreOurModels section of homePage" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Repository\Volvo_wdio\test\specs\validateFooter.spec.ts)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "To validate A Million More | Volvo Cars - International page - FooterValidation Should validate the exploreOurModels section of homePage" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Repository\Volvo_wdio\test\specs\validateFooter.spec.ts)
+                    at createTimeoutError (F:\Repository\Volvo_wdio\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (F:\Repository\Volvo_wdio\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (F:\Repository\Volvo_wdio\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621167021067' status='passed' stop='1621167021876'>
+            <name>Should validate the footer links and Copyrights info</name>
+            <title>Should validate the footer links and Copyrights info</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

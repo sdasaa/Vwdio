@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621171218895' stop='1621171225398'>
+    <name>To validate A Million More | Volvo Cars - International page - FooterValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - FooterValidation</title>
+    <test-cases>
+        <test-case start='1621171218896' status='passed' stop='1621171222996'>
+            <name>Validate the title</name>
+            <title>Validate the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621171222997' status='passed' stop='1621171224939'>
+            <name>Should validate the exploreOurModels section of homePage</name>
+            <title>Should validate the exploreOurModels section of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621171224939' status='passed' stop='1621171225397'>
+            <name>Should validate the footer links and Copyrights info</name>
+            <title>Should validate the footer links and Copyrights info</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

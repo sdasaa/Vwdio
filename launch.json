@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "node",
+        "cwd": "${workspaceFolder}",
+        "autoAttachChildProcesses": true,
+        "console": "integratedTerminal",
+        "program": "${workspaceFolder}/node_modules/@wdio/cli/bin/wdio.js",
+        "args": ["wdio.conf.ts", "--spec", "${file}"],
+        "sourceMaps": true,
+        "skipFiles": [
+            "${workspaceFolder}/node_modules/**/*.js",
+            "<node_internals>/**/*.js"
+        ]
+    }
+    ]
+}

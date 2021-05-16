@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621168136804' stop='1621168144343'>
+    <name>To validate A Million More | Volvo Cars - International page - FooterValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - FooterValidation</title>
+    <test-cases>
+        <test-case start='1621168136805' status='passed' stop='1621168140585'>
+            <name>Validate the title</name>
+            <title>Validate the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621168140586' status='failed' stop='1621168143939'>
+            <name>Should validate the exploreOurModels section of homePage</name>
+            <title>Should validate the exploreOurModels section of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The exploreOurModels section should be displayed &amp; validated: expected false to equal true</message>
+                <stack-trace>AssertionError: The exploreOurModels section should be displayed &amp; validated: expected false to equal true
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateFooter.spec.ts:19:120)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621168143940' status='passed' stop='1621168144342'>
+            <name>Should validate the footer links and Copyrights info</name>
+            <title>Should validate the footer links and Copyrights info</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

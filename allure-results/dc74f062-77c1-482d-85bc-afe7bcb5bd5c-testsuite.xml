@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621144768775' stop='1621144785311'>
+    <name>To validate A Million More | Volvo Cars - International page - HomePageValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HomePageValidation</title>
+    <test-cases>
+        <test-case start='1621144768776' status='passed' stop='1621144773354'>
+            <name>Should validate the VideoPanel</name>
+            <title>Should validate the VideoPanel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144773355' status='passed' stop='1621144773893'>
+            <name>Validate the modelIntro &amp; videoPanel of homePage</name>
+            <title>Validate the modelIntro &amp; videoPanel of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144773894' status='passed' stop='1621144774593'>
+            <name>Should validate the textStatement &amp; features of homePage</name>
+            <title>Should validate the textStatement &amp; features of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144774593' status='passed' stop='1621144774956'>
+            <name>Should validate the VideoTestimonials of homePage</name>
+            <title>Should validate the VideoTestimonials of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144774956' status='broken' stop='1621144785310'>
+            <name>Should close the popups and Validate that the homepage is displayed</name>
+            <title>Should close the popups and Validate that the homepage is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-autoid*='siteNavCloseIcon']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-autoid*='siteNavCloseIcon']" because element wasn't found
+                    at Object.implicitWait [as default] (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:61:40)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

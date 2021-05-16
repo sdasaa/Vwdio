@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621149679872' stop='1621149687071'>
+    <name>To validate A Million More | Volvo Cars - International page - HomePageValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HomePageValidation</title>
+    <test-cases>
+        <test-case start='1621149679873' status='passed' stop='1621149683055'>
+            <name>Should validate the VideoPanel</name>
+            <title>Should validate the VideoPanel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621149683056' status='passed' stop='1621149684726'>
+            <name>Should play &amp; validate the watchMyStory video of homePage</name>
+            <title>Should play &amp; validate the watchMyStory video of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621149684726' status='passed' stop='1621149685218'>
+            <name>Should validate the textStatement &amp; features of homePage</name>
+            <title>Should validate the textStatement &amp; features of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621149685218' status='passed' stop='1621149687070'>
+            <name>Should play &amp; validate all the VideoTestimonials of homePage</name>
+            <title>Should play &amp; validate all the VideoTestimonials of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

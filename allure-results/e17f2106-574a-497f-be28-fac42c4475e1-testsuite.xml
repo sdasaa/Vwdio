@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621144473525' stop='1621144489035'>
+    <name>To validate A Million More | Volvo Cars - International page - HomePageValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HomePageValidation</title>
+    <test-cases>
+        <test-case start='1621144473525' status='passed' stop='1621144476993'>
+            <name>Should validate the VideoPanel</name>
+            <title>Should validate the VideoPanel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144476994' status='passed' stop='1621144477537'>
+            <name>Validate the modelIntro &amp; videoPanel of homePage</name>
+            <title>Validate the modelIntro &amp; videoPanel of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621144477537' status='failed' stop='1621144478247'>
+            <name>Should validate the textStatement &amp; features of homePage</name>
+            <title>Should validate the textStatement &amp; features of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The textStatement should be displayed in homePage: expected 'A million more. With new and existing safety features, we are determined to save a million more lives.' to equal true</message>
+                <stack-trace>AssertionError: The textStatement should be displayed in homePage: expected 'A million more. With new and existing safety features, we are determined to save a million more lives.' to equal true
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:37:106)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621144478247' status='failed' stop='1621144478704'>
+            <name>Should validate the VideoTestimonials of homePage</name>
+            <title>Should validate the VideoTestimonials of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>There should be a total of 4 videoTestimonials displayed: expected 2 to equal 4</message>
+                <stack-trace>AssertionError: There should be a total of 4 videoTestimonials displayed: expected 2 to equal 4
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:50:114)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621144478704' status='broken' stop='1621144489034'>
+            <name>Should close the popups and Validate that the homepage is displayed</name>
+            <title>Should close the popups and Validate that the homepage is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[data-autoid*='siteNavCloseIcon']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[data-autoid*='siteNavCloseIcon']" because element wasn't found
+                    at Object.implicitWait [as default] (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:60:40)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

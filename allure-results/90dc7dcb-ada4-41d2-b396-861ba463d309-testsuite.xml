@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621149120452' stop='1621149130187'>
+    <name>To validate A Million More | Volvo Cars - International page - HomePageValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HomePageValidation</title>
+    <test-cases>
+        <test-case start='1621149120453' status='passed' stop='1621149123110'>
+            <name>Should validate the VideoPanel</name>
+            <title>Should validate the VideoPanel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621149123110' status='broken' stop='1621149128308'>
+            <name>Should play &amp; validate the watchMyStory video of homePage</name>
+            <title>Should play &amp; validate the watchMyStory video of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button type="button" class="ab as ca cb cd ce cf ck df dg dh di dj dk dl dm dn do dp dq dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh ei ej l x y">...&lt;/button> is not clickable at point (759, 23). Other element would receive the click: &lt;div class="_SiteNav-ag _SiteNav-ah _SiteNav-ai _SiteNav-t _SiteNav-w _SiteNav-x _SiteNav-y">...&lt;/div>
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>element click intercepted: Element &lt;button type="button" class="ab as ca cb cd ce cf ck df dg dh di dj dk dl dm dn do dp dq dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh ei ej l x y">...&lt;/button> is not clickable at point (759, 23). Other element would receive the click: &lt;div class="_SiteNav-ag _SiteNav-ah _SiteNav-ai _SiteNav-t _SiteNav-w _SiteNav-x _SiteNav-y">...&lt;/div>
+                  (Session info: chrome=90.0.4430.212)
+                    at Object.getErrorFromResponseBody (F:\Repository\Volvo_wdio\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (F:\Repository\Volvo_wdio\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.elementErrorHandlerCallbackFn (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (F:\Repository\Volvo_wdio\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at HomePage.validateWatchMyStory (F:\Repository\Volvo_wdio\test\pageobjects\home.page.ts:173:30)
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\validateHomePage.spec.ts:21:25)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621149128308' status='passed' stop='1621149128734'>
+            <name>Should validate the textStatement &amp; features of homePage</name>
+            <title>Should validate the textStatement &amp; features of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621149128734' status='passed' stop='1621149130186'>
+            <name>Should play &amp; validate all the VideoTestimonials of homePage</name>
+            <title>Should play &amp; validate all the VideoTestimonials of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

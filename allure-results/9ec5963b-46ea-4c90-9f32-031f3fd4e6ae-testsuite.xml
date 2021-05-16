@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621072771016' stop='1621072779400'>
+    <name>To validate A Million More | Volvo Cars - International page - HeaderValidation</name>
+    <title>To validate A Million More | Volvo Cars - International page - HeaderValidation</title>
+    <test-cases>
+        <test-case start='1621072771016' status='passed' stop='1621072777179'>
+            <name>should validate the title</name>
+            <title>should validate the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='HomePage'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621072777180' status='passed' stop='1621072777509'>
+            <name>should validate the header section of homePage</name>
+            <title>should validate the header section of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621072777509' status='passed' stop='1621072778969'>
+            <name>should validate the Cars Menu of homePage</name>
+            <title>should validate the Cars Menu of homePage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621072778969' status='broken' stop='1621072779398'>
+            <name>should validate the Cars present in each tabs</name>
+            <title>should validate the Cars present in each tabs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='critical'/>
+                <label name='feature' value='Header'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'scrollIntoView' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'scrollIntoView' of undefined
+                    at F:\Repository\Volvo_wdio\test\pageobjects\home.page.ts:134:33
+                    at Array.forEach (&lt;anonymous>)
+                    at HomePage.validateCarsMenuTabs (F:\Repository\Volvo_wdio\test\pageobjects\home.page.ts:125:27)
+                    at Context.&lt;anonymous> (F:\Repository\Volvo_wdio\test\specs\HeaderValidation.spec.ts:40:26)
+                    at Context.executeSync (F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Repository\Volvo_wdio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
