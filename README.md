@@ -1,11 +1,13 @@
 **Introduction:**
 This project is to demonstrate creating a test framework for sample application using wdio
+
 	• IDE Used: Visual Studio code
 	• Programming language: typescript
 	• Automation Tool: WebdriverIO
 	• Build/Dependency Management Tool: package.json
 
 **Prerequisties:**
+
 	• node -v 10.0.0 and above
 	• npm -v 6.0.0 and above
 	• npm install node
