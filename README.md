@@ -17,20 +17,27 @@ This project is to demonstrate creating a test framework for sample application 
 	• Update package.json to view report under scripts section :allure generate --clean [allure_output_dir] && allure open "
 
 
-**How to run test:
-Case 1: To run test locally**
+**How to run test:**
+
+**Case 1: To run test locally**
+
 	• Update services tag of wdio.conf.ts to 'chromedriver'
 	• On the cli enter the command: npm test
 	• Reporting:
 		○ Spec : view the reports in the cli
 		○ Allure: run the following commands: allure generate --clean & allure open
 		![image](https://user-images.githubusercontent.com/83858835/118402770-0a07f300-b689-11eb-8e27-e1c1e56952e7.png)
+		
 **Case 2: To run test on Docker**
+
 **Method 1:**
+
 	• Update services tag of wdio.conf.ts to 'docker'
 	• On the cli enter docker-compose up to start the engine
 	• Once the engine & corresponding nodes are up, enter npm test
+	
 **Method 2:**
+
 	• Update services tag of wdio.conf.ts to 'docker'
 	• On the cli enter docker build -t <Name>:<version> .
 		○ Ex: docker build -t wdiochrome:v6 .
