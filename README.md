@@ -26,7 +26,10 @@ This project is to demonstrate creating a test framework for sample application 
 	• Reporting:
 		○ Spec : view the reports in the cli
 		○ Allure: run the following commands: allure generate --clean & allure open
-		![image](https://user-images.githubusercontent.com/83858835/118402770-0a07f300-b689-11eb-8e27-e1c1e56952e7.png)
+
+
+![image](https://user-images.githubusercontent.com/83858835/118402906-96b2b100-b689-11eb-9136-43d48c30edb4.png)
+
 		
 **Case 2: To run test on Docker**
 
@@ -42,5 +45,7 @@ This project is to demonstrate creating a test framework for sample application 
 	• On the cli enter docker build -t <Name>:<version> .
 		○ Ex: docker build -t wdiochrome:v6 .
 	• Once the build is done and image is created:
-		![image](https://user-images.githubusercontent.com/83858835/118402777-168c4b80-b689-11eb-8d25-806d1e8b320a.png)
 	• Enter npm test to start the execution
+	
+![image](https://user-images.githubusercontent.com/83858835/118402917-a205dc80-b689-11eb-8495-0667d5ce2d9b.png)
+
